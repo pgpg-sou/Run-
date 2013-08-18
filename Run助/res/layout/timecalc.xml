@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/distance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/hour"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:ems="10" >
+
+            <requestFocus android:layout_width="wrap_content" />
+        </EditText>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="h"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/minute"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52" />
+
+        <TextView
+            android:id="@+id/Minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/second"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="s"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Calc"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.07"
+        android:text="計算" 
+        android:background="@drawable/start"/>
+
+    <TextView 
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height = "fill_parent"/>
+    <TextView
+        android:id="@+id/M100"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/M200"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/M400"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/M1000"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp" />
+
+</LinearLayout>

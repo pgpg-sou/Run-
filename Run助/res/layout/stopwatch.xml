@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/camma1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&apos;"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/camma2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/msecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lap1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="走者１"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lap2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="走者２"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lap3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="走者3"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Lap1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.89"
+            android:background="@drawable/lap"
+            android:text="Lap"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/Lap2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.89"
+            android:background="@drawable/lap"
+            android:text="Lap"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/Lap3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.89"
+            android:background="@drawable/lap"
+            android:text="Lap"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/start"
+            android:text="Start"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
