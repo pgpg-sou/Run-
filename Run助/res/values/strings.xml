@@ -4,5 +4,28 @@
     <string name="app_name">Run助</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="event_name">イベント名参照</string>
+    <string name="name">名前参照</string>
+    <string name="distance_name">距離参照</string>
+    <string name="complication">Complication</string>
+    <string name="second">second</string>
+    <string name="timerMode">現在 : RLP</string>
+    <string name="currenSPLIT">現在 : SPLIT</string>
+    <string name="modeSplit">SPLIT</string>
+    <string name="modeRlp">RLP</string>
+    <string name="eventLabel">イベント : </string>
+    <string name="runnerLabel">走者 : </string>
+    <string name="distanceLabel">距離 :</string>
+    <string name="Register">Register</string>
+    <string name="registerError">名前又はイベント名を入力してください</string>
+    <string name="selecetName">名前を選択してください</string>
+    <string name="eventSelectMessage">イベント名を選択してください</string>
+    <string name="deleteCaution">本当にこのデータを削除してもいいですか？</string>
+    <string name="caution">Caution!</string>
+    <string name="selectItem">走った距離を選択してください</string>
+    <string name="basePath">/data/data/com.example.manager/Runner/</string>
+    <string name="decide">決定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="meter">m</string>
 
 </resources>
